@@ -1,1 +1,14 @@
 @import url(./_reset.scss);
+
+* {
+    @font-face {
+        font-family: "Izmir";
+        src: url("../assets/izmir-regular.otf")
+    }
+
+
+    @font-face {
+        font-family: "Izmir2";
+        src: url("../assets/izmir-medium.otf")
+    }
+}
