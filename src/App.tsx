@@ -12,11 +12,11 @@ function App() {
   return (
     <>
       <div className="header">
-        <div className="header__logo">
-          <img className="header__logo__img" src={logo} />
+        <div className="header-logo">
+          <img className="header-logo-img" src={logo} />
         </div>
 
-        <div className="header__right">
+        <div className="header-right">
           <div className="search-bar">
             <div className="search-bar-text">
               Arama Yap

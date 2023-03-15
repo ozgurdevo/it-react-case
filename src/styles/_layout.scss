@@ -22,7 +22,7 @@
         height: 112px;
     }
 
-    .header__logo {
+    & .header-logo {
         @include lg {
             width: 391px;
             min-width: 391px;
@@ -37,7 +37,7 @@
             background-color: #f9f9f9;
         }
 
-        .header__logo__img {
+        & .header-logo-img {
             position: relative;
             width: 209.05px;
             top: 27px;
@@ -61,7 +61,7 @@
         }
     }
 
-    .header__right {
+    .header-right {
         width: 100%;
         display: flex;
         align-items: center;
